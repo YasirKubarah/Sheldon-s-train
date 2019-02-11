@@ -1,0 +1,58 @@
+Schedule
+Submitted by Dr. Goldschmidt... on Mon, 2017-02-06 18:53
+The three steps
+The project is to be realized in three steps.
+
+ Skeleton
+ Prototype
+ Complete
+
+The goal of the Skeleton version is to verify that object and dinamic models are making up the model of the task. The Skeleton is a program containing all the business objects that are going to take part in the final system. The interfaces of objects are defined only. At the beginning every method writes its name on the screen and calls the methods he needs to fulfil his service. In case calling of methods depend on condition, a question referring to the condition ought to be asked on the screen interactively so the program goes on the way the answer defines. Skeleton must also be able to help checking different scenarios and sequence diagrams.  For keeping the system simple, controlling of the screen should use characters only.
+
+The goal of the Prototype program is to demonstrate that the program is ready, works correctly, fulfills all tasks. Prototype version is a whole program except of the detailed interface. Prototype is well planned, timing and handling of active objects is completed. All methods of the business objects contain the final algorithms - except of those concerned with appearence. Paying attention to the logic and structure of interface, to the fact how much it reflects and makes visible the functioning of the program is very important.
+
+Complete version of program may differ from prototype only becasuse of the quality of user interface. At evaluation internal structure of realization is more stressed than exteriors.
+
+ 
+
+Schedule - due to this three-part division - lists the tasks to be completed until the given deadlines.
+In the following part: acknowledgements and informations due to every task, detailed.
+
+ 
+
+Schedule
+Consultations 
+ 
+ 	Date	Type of consultation
+1	Feb 5	kick off meeting
+2	Feb 12	consultation
+3	Feb 19	consultation
+4	Feb 26	consultation
+5	Mar 5	consultation
+6	Mar 12	consultation
+7	Mar 26	presenting the skeleton
+8	Apr 2	consultation
+9	Apr 9	consultation
+10	Apr 16	consultation
+11	Apr 23	presenting the prototype
+12	Apr 30	consultation
+13	May 7	consultation
+14	May 14	presenting the complete version
+ 
+Submission deadlines and scores
+ 
+ 	Date	Task	Score
+1	Feb. 11	Forming teams	 
+2	Feb. 18	Requirements, project, functionality -- documentation No IT concepts should appear in the problem description or the glossary	10
+3	Feb. 25	Analysis Model - first version -- documentation	20
+4	Mar. 4	Analysis Model - final version -- documentation	30
+5	Mar. 11	Planning the Skeleton -- documentation	20
+6	Mar. 25	Skeleton program -- documentation and source code Zipped (Winzip7 or arj2.3) source-codes sent in e-mail attachement. At least 20% of source-codes must be comments.	20
+7	Apr. 1	Concept of Prototype -- documentation	20
+8	Apr. 8	Detailed plans -- documentation	45
+9	Apr. 15	 Creating and testing the Prototype No artifact is to be submitted this week -
+10	Apr. 23	During consultiation Prototype program -- documentation and source code Zipped (Winzip7 or arj2.3) source-codes sent in e-mail attachement. At least 20% of source-codes must be comments..	35
+11	Apr 29	User interface specification -- documentation 	30
+12	May 6	Creating the Complete part No artifact is to be submitted this week	-
+13	May 13	Complete program -- documentation and source code Zipped (Winzip7 or arj2.3) source-codes sent in e-mail attachement. At least 20% of source-codes must be comments. An installable version (which can be played) has to be prepared, too.	40
+14	May 17	Summary Sent by e-mail: updated version of all document prepared before (Zipped doc, rtf, or pdf) 30

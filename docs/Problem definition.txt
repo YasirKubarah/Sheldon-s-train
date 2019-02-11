@@ -1,0 +1,11 @@
+Problem definition
+Submitted by Dr. Goldschmidt... on Mon, 2017-02-13 14:51
+Sheldon's train
+
+Sheldon is playing with his model trains on a big table. The trains depart from designated points on the table. A train consists of an engine (locomotive) and several railroad cars. There are passangers in the cars who have to reach certain stations in the proper order.
+
+On the table railroads are laid, the trains may travel on these only. Forks in the railroad are switches. A train reaching a fork always chooses the direction set by the switch. There are also special spots on the railroad where tunnel entrances might be built or dismantled. At the same time only 2 entrance can co-exist in the system. The two entrances are connected by a virtual tunnel that has some length, but is topologically separate from the railroad system. If a train enters a tunnel entrance, it enters the tunnel, and after travelling the length of the tunnel, it emerges at the other end. The train is invisible in the tunnel, and the tunnel can be shorter than the train itself.
+
+Beside the tracks there are stations on the table. Both the stations and the cars have colours. If reaching a station the car and the station have matching colours, the passangers could alight. The problem is, the passangers are only allowed to alight if all other cars of the train in the direction of the engine are empty. 
+
+The player is able to set the switches and build or dismantle tunnel entrances. The goal is to have all passangers alight without the trains' crashing into each other. If trains collide, tha game is lost. Each completed level leads to a new railroad setup.

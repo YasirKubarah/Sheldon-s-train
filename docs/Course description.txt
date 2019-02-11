@@ -1,0 +1,63 @@
+Software project lab.
+ Submitted by admin on Tue, 2017-01-03 12:43
+
+This page contains information about the English version of the course.
+
+Goals of the project
+Creating an object oriented application with UML (Unified Moodeling Language) description, Java implementation, due to RUP (Rational Unified Process) concepts. The students are working on the project in teams of 4 or 5. Teams are formed by the supervisor. The students are preparing the documentations and program of the game due to the schedule given. Documentations must be handed in in predefined formats, usually printed.
+
+
+Problem definition
+The problem definition can be found here.
+
+
+Contact
+The subject's official e-mail address:   projlab AT directory.iit.bme.hu
+All e-mails concerning the subject including those addressed to the teacher must be sent to the address mentioned above. Subject field must be: projlab=TEAM-NAME (or Neptun-code in case of personal letters). Every e-mail's body must contain the following textfields placed before the message itself:
+
+name of the team,
+name of team members, NEPTUN-code, e-mail address.
+
+ 
+
+Printed materials
+Documents are usually required in a printed form. Every document handed in must contain a cover page including the information listed below:
+
+title,
+name of the team,
+name of team members, NEPTUN-code, e-mail address,
+date of hand-in,
+signatures of team members.
+
+Every page must be numbered and contain the date given on the cover in the footer. Separate pages must be put into a plastic envelope. Each document handed in must contain at the end (on separate pages) the protocol of the team. The protocols have to be written in every case even if the detailed project definition does not mention it explicitely. The protocols contain events that occured since the last hand-in, in chronological order. Each activity mentioned in the protocol has to include its performer and completion time. Protocol consist of notes. Every note has to include:
+
+activity start time (day, hour),
+activity duration (hour),
+performer(s) name (please use LAST name(s)),
+activity description.
+
+In case the activity is performed by more than one person the activity should be a Meeting. Meetings result in decisions. Decisions must be recorded strictly (e.g. W is responsible for the implementations of methods Y and Z of the object X, the deadline is Q). In case the activity has to do with only one person, the activity results in a product. The product must appear at least in the actual  documentation (of course it might appear before). Remarks of protocols are detailed in the following way: an activity can be a drawing, a graph, a diagram in case it is something to be drawn, or the creation of an at least half-page long text. If the activity is an implementation: the unit is a single method. (e.g.: working out the sequence diagram - see on picture 3 -, or coding and fixing the Y and Z methods of the object X.)
+
+Among the matters to be prepared there are EVALUATIONs. An evaluation shows every team member's participation rate in the project (percents) from the beginning of the project to the time of the evaluation. An evaluation is in fact a chart which contains every team member's name and renders percent-value to each name. The sum of percent values must be 100. Evaluation must be set together by the team. The signature of team-members on the cover of a documentation means their mutual agreement in the evaluation. Supervisors have the right of asking for records and riports on progress, on difficulties (if any), and on the actual state of the project. In case the team members can not agree in any part of the matter, subjective opinions must be recorded and the supervisor is to be asked for help.
+
+Printed matters must be deliver to the Administration of the Department of Control Engineering and Informatics (IB 316) on Monday till 14.30 on each week prescribed in the schedule.  The only exception is the 22nd April, which is holiday. The documents due on this date should be handed in on Tuesday, 23rd April.
+
+ 
+
+Software
+Source codes must be sent by e-mail's attachement in a zipped format (Winzip7 or later). The e-mail is due to arrive by the printed matter's deadline. Source code is expected to be compilable and runnable on the local university computers in the lab. Besides the source code every installation and handling information should be given to help compiling and running.
+
+
+Delays
+In case of a delay, teams have to deliver the printed matters to the Administration of the Department of Control Engineering and Informatics (IB 316). Each day past the deadline decrements the maximum score that can be given for that part of the project by 10%.
+
+Assessment
+Supervisors give points to the matters handed-in. They consider quality and timing (see the part: Delays). Ratio between the three major parts (skeleton, prototype, graphics) is: 30 - 50 - 20 (so the highest number of points one can get is 100). Gaining 41 points as a minimum per step (skeleton, proto, complete) is a requirement for passing. Gaining 41% of the points for each program is also requiered. If a team fails these 41 percent rules, all members of the team - independently from their personal contributions - fail. Teams define the ratio between team-members during the three evaluation. Supevisors have the right to alter the ratios, if needed.
+
+ 
+
+References
+Sommerville, I. - Software Engineering 8th ed., Pearson Education Ltd, 2007, http://www.cs.st-andrews.ac.uk/%7Eifs/index.html 
+Booch, G., Rumbaugh, J., Jacobson, I.: The Unified Modeling Language User Guide, Addison-Wesley, 1999.
+Roger s. Pressman: Software Engineering, A Practitioner's Approach, 6th ed, McGraw-Hill, 2006
+UML 2.1.1 Superstructure Specification & Infrastructure Specification, http://www.omg.org/technology/documents/modeling_spec_catalog.htm#UML
