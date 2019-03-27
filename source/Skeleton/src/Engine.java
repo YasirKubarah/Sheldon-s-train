@@ -13,7 +13,7 @@ public class Engine extends Car {
 				+this.getClass().getSimpleName()+"("+variableName+")");
 	}
 	/**
-	 * This method is constructor
+	 * This method moves the engine on every tick of the timer (according to the given direction).
 	 */
 	public void move() {
 		System.out.println("=> ["+this.variableName+":"+this.getClass().getSimpleName()+"]."
