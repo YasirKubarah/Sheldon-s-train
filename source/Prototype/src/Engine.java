@@ -17,6 +17,7 @@ public class Engine extends Car {
 		if (field != null) { field.removeCar();}
 		try {
 			nextField.acceptCar(this,field);
+
 		} catch(TrainCollisionException e){
 			return;
 		}
@@ -25,5 +26,14 @@ public class Engine extends Car {
         if (nextCar != null) {
             if(currentField!=null){ nextCar.moveTo(currentField); }
         }
+	}
+
+	@Override
+	public String toString(){
+
+		return "Engine: " + Prototype.carIdToObjectId.get(this) + "," + this.isVisible  +
+				"," + Prototype.fieldIdToObjectId.get(this.field) + "," + "NONE" + ",NONE";
+		//<ID>,<isVisible>,<field>,<nextCar>,[<color>],[<isActive>],[<passengerCount>]
+
 	}
 }

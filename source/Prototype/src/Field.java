@@ -1,3 +1,4 @@
+import java.net.PortUnreachableException;
 import java.util.ArrayList;
 
 /**
@@ -58,12 +59,16 @@ public abstract class Field{
 	 * @exception ColorMismatchException Color Mismatch Exception
 	 */
 	public void acceptCar(Car c, Field from) throws TrainCollisionException, ColorMismatchException {
-		if(from == null){
+		if(from != null){
+			if (this.entrance1 != from){
+				this.entrance2 = this.entrance1;
+				this.entrance1 = from;
+			}
 		}
-		else{
-		}
+
 		if (this.cars.size()>0){
 			c.collide();
+			System.out.println("Collision Detected: " + Prototype.carIdToObjectId.get(c) + ":" + Prototype.carIdToObjectId.get(this.cars.get(0)));
 			throw new TrainCollisionException();
 		}
 		else {

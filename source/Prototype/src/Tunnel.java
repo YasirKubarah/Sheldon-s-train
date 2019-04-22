@@ -59,10 +59,13 @@ public class Tunnel extends Field {
 	 */
 	@Override
 	public void acceptCar(Car c, Field from) throws TrainCollisionException, ColorMismatchException {
-		if(from == null){
+		if(from != null){
+			if (this.entrance1 != from){
+				this.entrance2 = this.entrance1;
+				this.entrance1 = from;
+			}
 		}
-		else{
-		}
+
 		if (this.cars.size()>0){
 			c.collide();
 			throw new TrainCollisionException();
@@ -92,5 +95,14 @@ public class Tunnel extends Field {
 		else {
 			return this.entrance2;
 		}
+	}
+
+	public String toString(){
+
+		return "Tunnel: " + Prototype.fieldIdToObjectId.get(this) + "," + Prototype.fieldIdToObjectId.get(entrance1)  +
+				"," + Prototype.fieldIdToObjectId.get(entrance2) + ",NONE,NONE," + isActive + "," +
+				Prototype.fieldIdToObjectId.get(exitTunnel) + "," + Prototype.fieldIdToObjectId.get(tunnelEntrance);
+		//<ID>,<cars>,<entrance1>,<entrance2>,[<color>],[<directions>],[<isActive>],[<exitTunnel>],[<tunnelEntrance>]
+
 	}
 }

@@ -6,7 +6,7 @@ import java.util.ArrayList;
  */
 public class Stage{
 	private int passengerCount;
-	private ArrayList<Field> fields;
+	public ArrayList<Field> fields;
 	/**
 	 * This method is constructor
 	 */

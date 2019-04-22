@@ -40,6 +40,7 @@ public class Game{
      * This method is run when the game is finished
      */
     public void endGame() {
+        System.out.println("Game Over");
     }
 
 }

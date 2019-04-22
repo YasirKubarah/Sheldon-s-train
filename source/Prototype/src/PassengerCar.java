@@ -54,6 +54,7 @@ public class PassengerCar extends Car {
         if(isActive){
             if (this.color == st.getColor()){
                 this.passengerCount--;
+                System.out.println("Passenger Removed");
                 if (this.passengerCount==0){
                     this.activateNextCar();
                 }
@@ -98,4 +99,13 @@ public class PassengerCar extends Car {
             if(currentField!=null){ nextCar.moveTo(currentField); }
         }
 	}
+
+    @Override
+    public String toString(){
+
+        return "PassengerCar: " + Prototype.carIdToObjectId.get(this) + "," + this.isVisible  +
+                "," + Prototype.fieldIdToObjectId.get(this.field) + "," + nextCar + "," +color + "," + isActive + "," + passengerCount;
+        //<ID>,<isVisible>,<field>,<nextCar>,[<color>],[<isActive>],[<passengerCount>]
+
+    }
 }

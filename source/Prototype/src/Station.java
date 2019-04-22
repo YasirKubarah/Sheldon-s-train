@@ -37,10 +37,13 @@ public class Station extends Field {
 	 */
 	@Override
 	public void acceptCar(Car c, Field from) throws TrainCollisionException,ColorMismatchException  {
-		if(from == null){
+		if(from != null){
+			if (this.entrance1 != from){
+				this.entrance2 = this.entrance1;
+				this.entrance1 = from;
+			}
 		}
-		else{
-		}
+
 		if (this.cars.size()>0){
 			c.collide();
 			throw new TrainCollisionException();
@@ -48,6 +51,7 @@ public class Station extends Field {
 		else {
 			this.cars.add(c);
 			c.setField(this);
+
 			try {
 				c.removePassenger(this);
 			}catch (ColorMismatchException e){
@@ -55,5 +59,14 @@ public class Station extends Field {
 			}
 			this.stage.passengerDelivered();
 		}
+	}
+
+	@Override
+	public String toString(){
+
+		return "Station: " + Prototype.fieldIdToObjectId.get(this) + "," + Prototype.fieldIdToObjectId.get(entrance1)  +
+				"," + Prototype.fieldIdToObjectId.get(entrance2) + "," + color + ",NONE,NONE,NONE,NONE";
+		//<ID>,<cars>,<entrance1>,<entrance2>,[<color>],[<directions>],[<isActive>],[<exitTunnel>],[<tunnelEntrance>]
+
 	}
 }

@@ -21,4 +21,12 @@ public class DeadEnd extends Field {
 		c.collide();
 		throw new TrainCollisionException();
 	}
+
+	@Override
+	public String toString(){
+
+		return "DeadEnd: " + Prototype.fieldIdToObjectId.get(this) + "," + Prototype.fieldIdToObjectId.get(entrance1) +  ",NONE,NONE,NONE,NONE,NONE,NONE";
+		//<ID>,<cars>,<entrance1>,<entrance2>,[<color>],[<directions>],[<isActive>],[<exitTunnel>],[<tunnelEntrance>]
+
+	}
 }
